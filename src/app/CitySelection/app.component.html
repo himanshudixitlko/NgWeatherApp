@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+            <h4>Cities</h4>
+            
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a city <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><button type="button" class="btn btn-primary" (click)="f.onClick($event)" id="Sydney">Sydney</button></li>
+                    <li><button type="button" class="btn btn-primary" (click)="f.onClick($event)" id="Melbourne">Melbourne</button></li>
+                    <li> <button type="button" class="btn btn-primary" (click)="f.onClick($event)" id="Brisbane">Brisbane</button></li>
+                    <li><button type="button" class="btn btn-primary" (click)="f.onClick($event)" id="Adelaide">Adelaide</button></li>
+                    <li><button type="button" class="btn btn-primary" (click)="f.onClick($event)" id="Perth">Perth</button></li>
+                </ul>
+            </div>
+            <br>
+        </div>
+        <div>
+            <child #f ></child>
+        </div>
+
+    </div>
+</div>
+
+<footer class="container-fluid">
+    <p>Copyright © 2017 Himanshu Dixit </p>
+</footer>

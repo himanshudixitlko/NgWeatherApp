@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ChildComponent} from "./child.component"
+import {ChildComponent} from "../WeatherData/child.component"
 import { FormsModule } from '@angular/forms';
 import {NgForm} from '@angular/forms';
 import { NgModule } from '@angular/core';
@@ -12,5 +12,6 @@ import { NgModule } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  selectedCity:string;
+ 
 }
